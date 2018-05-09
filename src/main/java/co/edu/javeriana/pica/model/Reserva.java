@@ -52,5 +52,7 @@ public class Reserva {
 		return boletas.size();
 	}
 	
-	
+	public String toString() {
+		return "idReserva :: "+this.getIdReserva()+"::estadoReserva::"+this.getEstadoReserva()+"::fechaReserva::"+this.getFechaReserva()+"::cantBoletas::"+boletas.size();
+	}
 }

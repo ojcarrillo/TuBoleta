@@ -55,7 +55,9 @@ public class Response {
 		this.fechaReserva = fechaReserva;
 	}
 	
-	
+	public String toString() {
+		return "respuesta :: "+this.getRespuesta()+"::estado::"+this.getEstado()+"::fechaReserva::"+this.getFechaReserva();
+	}
 	
 	
 }
