@@ -1,0 +1,40 @@
+[
+	{
+		"persona":{
+			"nombre":"ANDRES",
+			"apellido":"ZAMBRANO",
+			"tipoDocIdentidad":"CEDULA",
+			"nroDocIdentidad":"1018434957",
+			"nroTelefono":"3017184118",
+			"correo":"andreszambrano18@gmail.com"		
+		},
+		"tipoEvento":"futbol",
+		"lugar":"estadio el campin",
+		"sector":"3",
+		"fila":"1",
+		"silla":"A45",
+		"grada":"ORIENTAL",
+		"idBoleta":"1",
+		"fecha":"20180223",
+		"hora":"5:30"	
+	},
+	{
+		"persona":{
+			"nombre":"ALEJANDRA",
+			"apellido":"CASTELLANOS",
+			"tipoDocIdentidad":"CEDULA",
+			"nroDocIdentidad":"1030570121",
+			"nroTelefono":"3017184118",
+			"correo":"andreszambrano18@gmail.com"		
+		},
+		"tipoEvento":"futbol",
+		"lugar":"estadio el campin",
+		"sector":"3",
+		"fila":"1",
+		"silla":"A46",
+		"grada":"ORIENTAL",
+		"idBoleta":"1",
+		"fecha":"20180223",
+		"hora":"5:30"	
+	}
+]
