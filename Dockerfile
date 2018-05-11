@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk-alpine
-VOLUME ["/tmp","/etc/apache"]
-ADD target/sandbox-microfocus-receiverMQ.jar app.jar
-ENTRYPOINT java -jar app.jar
+VOLUME ["/tmp","/var/netgloo_blog/logs/application.log"]
+ADD target/TuBoleta-0.0.1.jar app.jar
+CMD java -jar app.jar
 
